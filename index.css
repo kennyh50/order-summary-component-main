@@ -1,0 +1,45 @@
+/* Remove padding and margin */ 
+*{ 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+}
+
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: hsl(223, 47%, 23%);
+}
+
+.card {
+  width: 33.333%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+  
+}
+
+.card-container {
+  height: 60vh; 
+}
+
+.hero-pic {
+  border-radius: 5px 5px 0 0;
+}
+
+.sub-box {
+  border-radius: 20px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: center;
+
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+}
